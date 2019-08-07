@@ -3,7 +3,7 @@
 Java Maven project for active and passive buzzer for Raspberry Pi
 
 #### The harware pwm must be run with sudo:
-1.Add this to pom.xml:
+1. Add this to pom.xml:
 
     <build> 
         <plugins>
@@ -22,6 +22,6 @@ Java Maven project for active and passive buzzer for Raspberry Pi
         </plugins>
     </build>
 	
-2.Program properties:
+2. Program properties:
 Actions/Run project - Execute Goals: process-classes org.rogueware.mojo:ssh-exec-maven-plugin:1.2:exec
 Actions/Debug project - process-classes org.rogueware.mojo:ssh-exec-maven-plugin:1.2:exec
